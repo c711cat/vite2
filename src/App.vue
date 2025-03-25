@@ -5,7 +5,8 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    vite2025.03.25
+    {{ time }}
+    vite2025
     <img
       alt="Vue logo"
       class="logo"
@@ -26,7 +27,18 @@ import HelloWorld from './components/HelloWorld.vue'
 
   <RouterView />
 </template>
-
+<script>
+export default {
+  data() {
+    return {}
+  },
+  computed: {
+    time() {
+      return new Date()
+    },
+  },
+}
+</script>
 <style scoped>
 header {
   line-height: 1.5;
