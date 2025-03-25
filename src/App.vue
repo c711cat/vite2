@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    vite22222
+    vite2025
     <img
       alt="Vue logo"
       class="logo"
